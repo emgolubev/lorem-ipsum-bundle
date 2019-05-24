@@ -1,0 +1,12 @@
+services:
+
+  knpu_lorem_ipsum.service.knpu_ipsum:
+    class: KnpU\LoremIpsumBundle\Service\KnpUIpsum
+    arguments: ['knpu_lorem_ipsum.word_provider']
+    public: true
+
+  KnpU\LoremIpsumBundle\Service\KnpUIpsum:
+    alias: knpu_lorem_ipsum.service.knpu_ipsum
+
+  knpu_lorem_ipsum.service.knpu_word_provider:
+    class: KnpU\LoremIpsumBundle\Service\KnpUWordProvider
