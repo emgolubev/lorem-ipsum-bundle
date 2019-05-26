@@ -7,7 +7,7 @@ than your normal lorem ipsum.
 Install the package with:
 
 ```console
-composer require knpuniversity/lorem-ipsum-bundle --dev
+composer require emgolubev/lorem-ipsum-bundle --dev
 ```
 
 And... that's it! If you're *not* using Symfony Flex, you'll also
@@ -37,7 +37,7 @@ class SomeController
 ```
 
 You can also access this service directly using the id
-`knpu_lorem_ipsum.knpu_ipsum`.
+`knpu_lorem_ipsum.service.knpu_ipsum`.
 
 ## Configuration
 
